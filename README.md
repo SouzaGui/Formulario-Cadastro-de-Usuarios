@@ -13,4 +13,4 @@ Técnologias Utilizadas:
 
 Abaixo está uma prévia de como ficou o layout do projeto !
 
-<img src"Cadastro_Usuario/web/images/Preview%20Layout%20Formulario.png">
+<img src"Cadastro_Usuario/web/images/PreviewLayoutFormulario.png">
