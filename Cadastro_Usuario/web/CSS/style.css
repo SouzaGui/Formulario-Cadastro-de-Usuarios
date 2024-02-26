@@ -1,0 +1,105 @@
+/* 
+    Created on : 30 de nov de 2023, 21:04:21
+    Author     : guizi
+*/
+
+body {
+    background-image: url("../images/celular-roupa.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    max-width: 600px; 
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 70%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+input[name="txtstatus"] {
+    width: calc(50% - 5px);
+}
+
+input[name="txtid"] {
+    width: 25%;
+}
+
+input[type="submit"] {
+    width: 30%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.campos-mesmaLinha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%; 
+    margin-bottom: 10px;
+}
+
+input[name="txtcpf"] {
+    width: 45%;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+}
+
+input[name="txtstatus"]{
+    width: 15%
+}
+
+input[name="txtidade"]{
+    width:18%;
+}
+
+input[name="txtcelular"]{
+    width: 30%;
+}
+
+input[name="txtgenero"]{
+    width: 23%;
+}
+
+input[value="DELETAR"]{
+    background-color: rgb(208, 0, 0);
+}
+
+alert {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+}
